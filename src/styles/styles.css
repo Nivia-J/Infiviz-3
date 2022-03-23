@@ -1,3 +1,6 @@
 /* Import all styles */
 @import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
+body {
+    margin-top: 6rem;
+}
