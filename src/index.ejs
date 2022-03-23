@@ -101,6 +101,27 @@
            </div>
           </div>
         </section>
+
+        <!-- scrolly -->
+        <section id="doge-scrolly">
+
+          <!-- define the scroll sections -->
+          <% const blocks=
+           [
+             {
+               "filename" : "scrolly_1",
+               "anno" : "The dogefather"
+             },
+             {
+              "filename" : "scrolly_2",
+              "anno" : "Such doge Much wow"
+             }
+           ]
+          %>
+
+          <!-- include the component -->
+          <%- include('./scrolly/scrolly.ejs',{id:"doge-scrolly", blocks: blocks }); %>
+        </section>
     </article>
   </main>
 
