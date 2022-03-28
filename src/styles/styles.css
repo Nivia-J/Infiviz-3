@@ -4,3 +4,33 @@
 body {
     margin-top: 6rem;
 }
+
+nav {
+    background-color: rgb(31, 31, 31);
+    margin: 0 auto;
+    display:block;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    color: #969696;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border-color: rgb(63, 14, 14);
+    font-family: helvetica;
+    margin: auto;
+    background-color: rgb(31, 31, 31);
+}
+
+nav a:visited {
+    color: #7c6465;
+    text-decoration : none;
+}
+
+nav a:hover {
+    background-color: #ffcc23;
+    color: black;
+    transition: 0.8s;
+}
