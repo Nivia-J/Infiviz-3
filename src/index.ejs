@@ -18,20 +18,29 @@
 
     <header> 
 
-      <!-- <img src="Home-images/j.png" width=250px id="nivia">--> 
+      <img src="assets/j.png" width=250px id="nivia"> 
   
     </header>
 
     <nav>
-     <a href="index.ejs">| Home</a> 
+     <a href="index.ejs">| Purani Dilli</a> 
      <a href="demo.ejs">| About Me</a> 
-     <a href="demo.ejs">| Design Criitique</a> 
->
-  </nav>
+     <a href="demo.ejs">| Home </a> 
+    </nav>
 
     <article>
 
-      
+      <!-- ai2html -->
+      <section class="ai2html">
+        <div class="container-fluid">
+          <div class="row">
+           <div class="col-12">
+           <!-- This is the line that matters for import -->
+           <%- include('./ai2html-output/purani_dilli_cover.ejs'); %>
+           </div>
+         </div>
+        </div>
+      </section>
 
       <section class="intro"> 
         <div class="container"> 
@@ -105,17 +114,7 @@
             </div> 
           </div> 
         </section>  
-        <!-- ai2html -->
-        <section class="ai2html">
-          <div class="container-fluid">
-            <div class="row">
-             <div class="col-12">
-             <!-- This is the line that matters for import -->
-             <%- include('./ai2html-output/ai2html-test.ejs'); %>
-             </div>
-           </div>
-          </div>
-        </section>
+        
 
         <!-- scrolly -->
         <section id="doge-scrolly">
