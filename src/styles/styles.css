@@ -52,11 +52,12 @@ nav a:hover {
     text-align: justify;
 }
 
-#lakes {
+#lake {
 
     background-color: #000000;
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
     width: auto;
+    margin: auto;
 }
