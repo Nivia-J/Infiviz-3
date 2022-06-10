@@ -54,10 +54,37 @@ nav a:hover {
 
 #lake {
 
-    background-color: #000000;
+    background-color: #1A1A1A;
     text-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
-    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    width: 100%;
     margin: auto;
+}
+
+#lakescrolly {
+    background-color: #1A1A1A;
+}
+
+.black-bg {
+    background-color: #1A1A1A;
+    margin: 0%;
+}
+.grey-fillet {
+    color: #E9E9E9;
+    background-color: #232323;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    text-align: left;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding-top: 5%;
+    border-radius: 12px;
+
+}
+
+body {
+    background-color: #1A1A1A;
 }

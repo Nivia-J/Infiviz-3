@@ -33,107 +33,46 @@
         <img src="assets/for_web_1.png" id="lake"> 
     </section>
 
+    <section class="black-bg">
+        <container>
+            <p class="grey-fillet">
+                hello hello hello hello 
+                hello hello hello hello
+                hello hello hello hello
+                hello hello hello hello
+                hello hello hello hello
+                hello hello hello hello v
+            </p>
+        </container>
+
+    </section>
+    
+
     <article>
+  
+          <!-- scrolly -->
+          <section id="doge-scrolly">
+  
+            <!-- define the scroll sections -->
+            <% const blocks=
+             [
+               {
+                 "filename" : "scrolly_1",
+                 "anno" : "The dogefathers"
+               },
+               {
+                "filename" : "scrolly_2",
+                "anno" : "Such doge Much wow"
+               }
+             ]
+            %>
+  
+            <!-- include the component -->
+            <%- include('./scrolly/scrolly.ejs',{id:"doge-scrolly", blocks: blocks }); %>
+          </section>
+      </article>
 
-      <!-- ai2html -->
-      <section class="ai2html">
-        <div class="container-fluid">
-          <div class="row">
-           <div class="col-12">
-           <!-- This is the line that matters for import -->
-           <%- include('./ai2html-output/purani_dilli_cover.ejs'); %>
-           </div>
-         </div>
-        </div>
-      </section>
 
-      <section class="yelloww"> 
-        <div class="container"> 
-          <div class="logo row"> 
-            <div class="col-12">
-              <p> <br> <br>
-                Experience the soul of Old Delhi by walking down the historic lanes of Shahjahanabad.
-
-                The narrow gullies of Old Delhi narrate many stories through the overwhelming variety of street food that they offer. They'll inspire you to pull out your cameras, explore new ways, and sometimes, even get into the kitchen and recreate. While walking through the chaotic maze of by-lanes, you can never be lost. If ever you are, you'll probably catch the whiff of steaming samosas still hissing from the hot oil or the sweet aroma of crisp jalebis that will lead your senses. Temptation is everywhere and it's hard to resist. 
-                The old city shares an intimate relationship with food that began during the Mughal era. Here, traditions rule and history is served sumptuously garnished with culinary secrets that have been passed down through generations. 
-                
-                Follow the trail to taste the best of Purani Dilli...
-                <br> <br>
-              </p>
-            </div> 
-          </div> 
-        </div> 
-      </section> 
-
-        <section class="jobs"> 
-          <div class="container"> 
-            <div class="row"> 
-              <div class="col-12"> 
-                <h2 class="border-1 border-bottom display-6 pb-2">Places I worked at</h2> 
-              </div> 
-            </div> 
-            <div class="row"> 
-              <div class="col-12"> 
-                <h5 class="fw-bold">Company Name</h5> 
-                <div><span class="badge bg-secondary rounded-pill">Jan 2019 - Present</span></div> 
-              </div> 
-              <div class="col-12"> 
-                <ul class="list-unstyled"> 
-                  <li>An item</li> 
-                  <li>A second item</li> 
-                  <li>A third item</li> 
-                  <li>A fourth item</li> 
-                  <li>And a fifth one</li> 
-                </ul> 
-              </div> 
-            </div> 
-          </div> 
-        </section> 
-        <section class="info-cards"> 
-          <div class="container"> 
-            <div class="row"> 
-              <div class="col-12 col-sm-6"> 
-                <div class="card"> 
-                  <div class="card-body"> 
-                    <h5 class="card-title">Skills</h5> 
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                  </div> 
-                </div> 
-              </div> 
-              <div class="col-12 col-sm-6"> 
-                <div class="card"> 
-                  <div class="card-body"> 
-                    <h5 class="card-title">Tools</h5> 
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
-                  </div> 
-                </div> 
-              </div> 
-            </div> 
-          </div> 
-        </section>  
-        
-
-        <!-- scrolly -->
-        <section id="doge-scrolly">
-
-          <!-- define the scroll sections -->
-          <% const blocks=
-           [
-             {
-               "filename" : "scrolly_1",
-               "anno" : "The dogefathers"
-             },
-             {
-              "filename" : "scrolly_2",
-              "anno" : "Such doge Much wow"
-             }
-           ]
-          %>
-
-          <!-- include the component -->
-          <%- include('./scrolly/scrolly.ejs',{id:"doge-scrolly", blocks: blocks }); %>
-        </section>
-    </article>
   </main>
 
 </body>
