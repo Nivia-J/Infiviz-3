@@ -91,11 +91,14 @@ body {
 
 .lake {
 
-    background-color: #1A1A1A;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
     padding-bottom: 2%;
+    padding-top: 2%;
     width: 100%;
     margin: auto;
+    border-radius: 12px;
+    
+    
 }
